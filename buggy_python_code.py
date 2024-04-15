@@ -27,6 +27,7 @@ def fetch_website(urllib_version, url):
     if len(list_) == 3:
         exec(f"import urllib{urllib_version} as urllib", globals())
         # Fetch and print the requested URL
+        # TODO FIX this
  
     try: 
         http = urllib.PoolManager()
